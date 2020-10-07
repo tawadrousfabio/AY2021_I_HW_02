@@ -10,6 +10,7 @@
  * ========================================
 */
 #include "project.h"
+#include "stdio.h"
 
 int main(void)
 {
@@ -19,7 +20,7 @@ int main(void)
 
     for(;;)
     {
-        /* Place your application code here. */
+        //bruv
     }
 }
 
