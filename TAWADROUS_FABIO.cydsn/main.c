@@ -20,6 +20,7 @@ int main(void)
     for(;;)
     {
         /* Place your application code here. */
+        printf("Ciao Davide\r\n");
     }
 }
 
