@@ -31,10 +31,12 @@ The RED channel of the RGB Led must be connected to pin **2.7**. The GREEN chann
 #### Evaluation
 The evaluation of the assignment will take into consideration the following aspects of the project:
 - successful build process without any warning/error generated
-- successful programmin without any error generated
+- successful programming without any error generated
 - correct functioning of the device as per the requirements
 - code organization (header and source files, useful comments)
 - schematic organization and documentation
+- successful use of git for version control (use of branches, ...)
+- successful pull request on GitHub
 
 As already stated, solutions that require less CPU-overhead and are less error-prone will be preferred.
 
