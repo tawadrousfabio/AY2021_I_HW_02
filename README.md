@@ -21,7 +21,7 @@ The RED channel of the RGB Led must be connected to pin **2.7**. The GREEN chann
 - Fork this repository 
 - Clone the repository you just forked by entering the following command in your terminal:
 
-    `git clone https://github.com/[your_user]/AY2021_I_HW_02.git`
+    `git clone https://github.com/[your_username]/AY2021_I_HW_02.git`
 - Open up the workspace in PSoC Creator
 - Activate the project with your name and surname
 - Work on your project
