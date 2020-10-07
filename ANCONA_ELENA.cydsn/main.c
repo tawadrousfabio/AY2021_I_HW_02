@@ -20,7 +20,7 @@ int main(void)
 
     for(;;)
     {
-        //bruv
+        /* Place your application code here. */
     }
 }
 

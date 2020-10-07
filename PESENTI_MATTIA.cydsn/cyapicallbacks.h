@@ -9,18 +9,13 @@
  *
  * ========================================
 */
-#include "project.h"
+#ifndef CYAPICALLBACKS_H
+#define CYAPICALLBACKS_H
+    
 
-int main(void)
-{
-    CyGlobalIntEnable; /* Enable global interrupts. */
+    /*Define your macro callbacks here */
+    /*For more information, refer to the Writing Code topic in the PSoC Creator Help.*/
 
-    /* Place your initialization/startup code here (e.g. MyInst_Start()) */
-
-    for(;;)
-    {
-        /* Place your application code here. */
-    }
-}
-
-/* [] END OF FILE */
+    
+#endif /* CYAPICALLBACKS_H */   
+/* [] */
