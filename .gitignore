@@ -4,6 +4,7 @@
 # Project Settings
 *.cywrk.*
 *.cyprj.*
+*.cydsn/*.cyprj.*
 
 # Generated Assets and Resources
 Debug/
