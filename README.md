@@ -35,6 +35,8 @@ The evaluation of the assignment will take into consideration the following aspe
 - correct functioning of the device as per the requirements
 - code organization (header and source files, useful comments)
 - schematic organization and documentation
+- successful use of git for version control (use of branches, ...)
+- successful pull request on GitHub
 
 As already stated, solutions that require less CPU-overhead and are less error-prone will be preferred.
 
