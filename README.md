@@ -25,6 +25,7 @@ The RED channel of the RGB Led must be connected to pin **2.7**. The GREEN chann
 - Open up the workspace in PSoC Creator
 - Activate the project with your name and surname
 - Work on your project
+- The last commit must be named '*NAME_SURNAME* Final Delivery'
 - Propose a pull request before the deadline for the assignment, which is on **October 13 at 6PM**
 
 
