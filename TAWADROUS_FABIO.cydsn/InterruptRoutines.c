@@ -42,6 +42,7 @@ CY_ISR(Interrupt_1)
             
                 // Toggle LED
             k = k+1;
+           
             if(k>6)
             {
                 k=0;
@@ -72,13 +73,14 @@ CY_ISR(Interrupt_1)
             break;
             
         case 5:
+            CyDelayUs(10);
             RGLed_WriteCmp(COMPARE_6);
             break;
             
         case 6:
-            RGLed_WriteCmp(COMPARE_7a);
-            CyDelay(1000);
-            RGLed_WriteCmp(COMPARE_7b);
+            
+            RGLed_WriteCmp(COMPARE_7);
+            
             break;
     }
     

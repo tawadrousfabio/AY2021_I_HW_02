@@ -24,7 +24,8 @@
         uint16_t green_cmp;  ///< Green value period 1 - 65k???????
         uint8_t red_cmp_type;
         uint8_t green_cmp_type;
-        uint16_t period;
+        uint16_t red_period;
+        uint16_t green_period;
     } Cmp;
     
     
@@ -44,6 +45,7 @@
     */
     void RGLed_WriteCmp(Cmp c);
     
+    //void RGLed_WriteCmp7(Cmp c1, Cmp c2);
 #endif
 
 /* [] END OF FILE */
