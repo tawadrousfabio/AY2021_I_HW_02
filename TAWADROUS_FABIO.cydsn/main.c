@@ -19,7 +19,7 @@ int main(void)
 {
     CyGlobalIntEnable; /* Enable global interrupts. */
     
-    LED_ISR_StartEx(Interrupt_1);   // Start the ISR
+    LED_ISR_StartEx(Interrupt_RG_LED);   // Start the ISR
     RGLed_Start();
     const Cmp COMPARE_1     = {65000,   65000, 3, 3, 65000, 65000};
     

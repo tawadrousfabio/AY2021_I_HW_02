@@ -45,7 +45,7 @@
     */
     void RGLed_WriteCmp(Cmp c);
     
-    //void RGLed_WriteCmp7(Cmp c1, Cmp c2);
+
 #endif
 
 /* [] END OF FILE */
