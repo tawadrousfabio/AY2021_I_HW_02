@@ -8,30 +8,30 @@
 *   pin 2.6, the blue channel to pin 2.5, the green channel to 2.7.
 *   The long terminal must be connected to VDD (5V). The other
 *   terminals must be connected to the pins through a resistor.
+
+autore
 */
 #include "project.h"
-#include "cmps.h"
+#include "InterruptRoutines.h"
 #include "RGLedDriver.h"
 
 int main(void)
 {
     CyGlobalIntEnable; /* Enable global interrupts. */
-
-    /* Place your initialization/startup code here (e.g. MyInst_Start()) */
-    RGLed_Start();
     
-    //RGLed_WriteCmp(COMPARE_4);
+    LED_ISR_StartEx(Interrupt_1);   // Start the ISR
+    RGLed_Start();
+    const Cmp COMPARE_1     = {65000,   65000, 3, 3, 65000};
+    
+    RGLed_WriteCmp(COMPARE_1);
     
     for(;;)
     {
-        //RGLed_WriteCmp(COMPARE_3);
-        //CyDelay(10000);
-        //CyDelay(100);
-        RGLed_WriteCmp(COMPARE_7a);
-       CyDelay(1000);
-        RGLed_WriteCmp(COMPARE_7b);
-        CyDelay(1000);
+        /* Place your application code here. */
     }
 }
 
 /* [] END OF FILE */
+
+
+
