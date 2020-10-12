@@ -14,7 +14,6 @@
     
     #include "project.h"
     
-    
     /**
     *   \brief Struct holding color data
     */

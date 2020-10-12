@@ -16,7 +16,7 @@
 
     #include "project.h"
     
-    CY_ISR_PROTO(Interrupt_RG_LED);
+    CY_ISR_PROTO(Interrupt_RG_LED_Handler);
     
 #endif
 

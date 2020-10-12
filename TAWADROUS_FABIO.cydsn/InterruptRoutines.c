@@ -10,43 +10,21 @@
  * ========================================
 */
 #include "InterruptRoutines.h"
-#define BUTTON_PRESSED 0
 #include "cmps.h"
-
 
 uint8 k = 0;
 
-CY_ISR(Interrupt_RG_LED)
+CY_ISR(Interrupt_RG_LED_Handler)
 {
+    
+    k = k + !RG_Control_SW_Read(); //If the button is pressed, k is incremented.
+        
+    if(k>6) //k is an index that refers to the array of patterns
+    {
+        k=0; //of course if we had finished the patterns, we'll start again from the first one.
+    } 
 
-    uint8_t pushButtonLastState = !BUTTON_PRESSED;
-    // Current reading of push button
-    uint8_t pushButtonReading = !BUTTON_PRESSED;
-    
-    pushButtonLastState = pushButtonReading;
-    pushButtonReading = RG_Control_SW_Read();
-        
-        
-    if (pushButtonReading != pushButtonLastState) {
-            
-        
-    }
-        
-        
-    // If button was pressed 
-    if (pushButtonReading == BUTTON_PRESSED) {
-            
-            // Then increment k
-            k++;
-            if(k>6)
-            {
-                k=0;
-            }
-    }  
-    
-    
-    RGLed_WriteCmp(CMP_ARR[k]);
-       
+    RGLed_WriteCmp(CMP_ARR[k]); //Get the k-struct from the array  and use it to set the PWM values in both channels.
  }
 
 
