@@ -1,5 +1,6 @@
 /**
 *   \brief Source code for RGB Led Driver.
+*   \author: Fabio Tawadrous
 */
 
 #include "RGLedDriver.h"

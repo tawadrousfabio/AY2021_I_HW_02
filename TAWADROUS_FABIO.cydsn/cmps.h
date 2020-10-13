@@ -1,13 +1,6 @@
-/* ========================================
- *
- * Copyright YOUR COMPANY, THE YEAR
- * All Rights Reserved
- * UNPUBLISHED, LICENSED SOFTWARE.
- *
- * CONFIDENTIAL AND PROPRIETARY INFORMATION
- * WHICH IS THE PROPERTY OF your company.
- *
- * ========================================
+/**
+*   \brief Header containing the pattern information
+*   \author: Fabio Tawadrous
 */
 #include "RGLedDriver.h"
 #define F 65000;

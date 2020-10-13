@@ -1,13 +1,6 @@
-/* ========================================
- *
- * Copyright YOUR COMPANY, THE YEAR
- * All Rights Reserved
- * UNPUBLISHED, LICENSED SOFTWARE.
- *
- * CONFIDENTIAL AND PROPRIETARY INFORMATION
- * WHICH IS THE PROPERTY OF your company.
- *
- * ========================================
+/**
+*   \brief Header code for RGB Led Driver.
+*   \author: Fabio Tawadrous
 */
 #ifndef _RG_LED_DRIVER_H_
     #define _RG_LED_DRIVER_H_

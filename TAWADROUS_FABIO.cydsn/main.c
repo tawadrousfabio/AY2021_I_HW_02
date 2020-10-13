@@ -2,7 +2,6 @@
 *   \file main.c
 *   \brief Project aim: to show how to implement a simple driver for RB LEDs using PWMs.
 *   \author: Fabio Tawadrous
-autore
 */
 
 #include "project.h"
