@@ -1,6 +1,6 @@
 /**
 *   \file main.c
-*   \brief Project aim: to show how to implement a simple driver for RB LEDs using PWMs.
+*   \brief Project aim: to show how to implement a simple driver for RG(B) LEDs using PWMs.
 *   \author: Fabio Tawadrous
 */
 
